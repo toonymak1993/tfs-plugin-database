@@ -1,26 +1,37 @@
 {
-    "title":  "TFS Community",
-    "description":  "Official Tools for Steam community plugin catalog.",
-    "plugins":  [
-                    {
-                        "id":  "home-assistant",
-                        "title":  "Home Assistant",
-                        "description":  "Control Home Assistant light entities from Tools for Steam.",
-                        "author":  "Tools for Steam",
-                        "category":  "Smart Home",
-                        "version":  "0.1.0",
-                        "packageUrl":  "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/packages/home-assistant.zip",
-                        "packageSha256":  "50D1881054EB1B97BC093B0E98C3D24E1D428936AFB3D6C3D5535C1455C2F805",
-                        "images":  [
-                                       "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/images/home-assistant.png"
-                                   ],
-                        "tags":  [
-                                     "smart-home",
-                                     "lights",
-                                     "sdk-v1"
-                                 ],
-                        "homepageUrl":  "https://www.home-assistant.io/",
-                        "repositoryUrl":  "https://developers.home-assistant.io/docs/api/rest/"
-                    }
-                ]
+  "title": "TFS Community",
+  "description": "Official Tools for Steam community plugin catalog.",
+  "plugins": [
+    {
+      "id": "home-assistant",
+      "title": "Home Assistant",
+      "description": "Control Home Assistant light entities from Tools for Steam.",
+      "author": "Tools for Steam",
+      "category": "Smart Home",
+      "version": "0.2.0",
+      "sdkVersion": "1.0.0",
+      "permissions": [
+        "frontend",
+        "storage",
+        "secrets",
+        "network"
+      ],
+      "networkHosts": [
+        "<local>"
+      ],
+      "packageUrl": "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/packages/home-assistant.zip",
+      "packageSha256": "FAC0EC8D751656B2B18BDD0CD289471900611934418C255F20E203ECC45E3FD4",
+      "images": [
+        "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/images/home-assistant.png"
+      ],
+      "tags": [
+        "smart-home",
+        "lights",
+        "sdk-v1"
+      ],
+      "homepageUrl": "https://www.home-assistant.io/",
+      "repositoryUrl": "https://developers.home-assistant.io/docs/api/rest/",
+      "changelog": "Updated for the public TFS SDK 1.0 contract, including explicit permissions and local-network access."
+    }
+  ]
 }
