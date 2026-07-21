@@ -32,6 +32,39 @@
       "homepageUrl": "https://www.home-assistant.io/",
       "repositoryUrl": "https://developers.home-assistant.io/docs/api/rest/",
       "changelog": "Updated for the public TFS SDK 1.0 contract, including explicit permissions and local-network access."
+    },
+    {
+      "id": "crackwatch",
+      "title": "Crackwatch",
+      "description": "Browse Hot Games, all cracked games newest first, and personal favorites from CrackRelease with artwork and background updates.",
+      "author": "Tools for Steam",
+      "category": "Game Information",
+      "version": "0.3.0",
+      "sdkVersion": "1.0.0",
+      "permissions": [
+        "frontend",
+        "storage",
+        "notifications",
+        "logging",
+        "native.full-trust"
+      ],
+      "networkHosts": [],
+      "packageUrl": "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/packages/crackwatch.zip",
+      "packageSha256": "1EF01ADB71327F3AB4722D7FCDA9B0290779BDBEC0FA8BBBD115527CEE3EAB1A",
+      "images": [
+        "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/images/crackwatch.png"
+      ],
+      "tags": [
+        "games",
+        "crack-status",
+        "favorites",
+        "hot-games",
+        "tracker",
+        "sdk-v1"
+      ],
+      "homepageUrl": "https://crackrelease.com/",
+      "repositoryUrl": "https://github.com/toonymak1993/tools-for-steam",
+      "changelog": "Starts with Hot Games, adds every cracked game sorted newest to oldest by CrackRelease update date, and improves global multi-word search with a clear action."
     }
   ]
 }
