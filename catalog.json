@@ -5,10 +5,10 @@
     {
       "id": "home-assistant",
       "title": "Home Assistant",
-      "description": "Control Home Assistant light entities from Tools for Steam.",
+      "description": "Control Home Assistant rooms, configurable devices, lights, and scenes from Tools for Steam.",
       "author": "Tools for Steam",
       "category": "Smart Home",
-      "version": "0.2.0",
+      "version": "0.4.1",
       "sdkVersion": "1.0.0",
       "permissions": [
         "frontend",
@@ -20,18 +20,21 @@
         "<local>"
       ],
       "packageUrl": "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/packages/home-assistant.zip",
-      "packageSha256": "FAC0EC8D751656B2B18BDD0CD289471900611934418C255F20E203ECC45E3FD4",
+      "packageSha256": "92BEBC1714C717DE8CEC27C1CEAC66DA7262CACB43F55893898D90B31307F21F",
       "images": [
         "https://raw.githubusercontent.com/toonymak1993/tfs-plugin-database/main/images/home-assistant.png"
       ],
       "tags": [
         "smart-home",
+        "areas",
+        "entities",
         "lights",
+        "scenes",
         "sdk-v1"
       ],
       "homepageUrl": "https://www.home-assistant.io/",
-      "repositoryUrl": "https://developers.home-assistant.io/docs/api/rest/",
-      "changelog": "Updated for the public TFS SDK 1.0 contract, including explicit permissions and local-network access."
+      "repositoryUrl": "https://github.com/toonymak1993/tools-for-steam",
+      "changelog": "Adds directly draggable Homey-style sliders without visible arrow buttons, including colored tracks for hue, saturation, brightness, and white temperature. Controls remain grouped inside each supported device."
     },
     {
       "id": "crackwatch",
