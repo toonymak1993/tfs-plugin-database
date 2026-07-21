@@ -21,7 +21,7 @@ Developer documentation, SDK types, schemas, templates, packaging, and sideloadi
 
 ## Current Plugins
 
-- `home-assistant`: first official SDK v1 community plugin. It controls Home Assistant light entities through the Tools for Steam SDK.
+- `home-assistant`: official SDK v1 smart-home plugin for Home Assistant areas, configurable devices, lights, scenes, and Homey-style sliders.
 
 ## Catalog Rules
 
